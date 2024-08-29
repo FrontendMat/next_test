@@ -1,6 +1,9 @@
 {
     "extends": ["next/core-web-vitals", "plugin:prettier/recommended"],
     "rules": {
-        "react/display-name": "warn"
+        "react/display-name": "warn",
+        "indent": [2, 4],
+        "react/jsx-indent": [2, 4],
+        "react/jsx-indent-props": [2, 4]
     }
 }

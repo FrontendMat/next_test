@@ -15,10 +15,11 @@ Modern website with the ability to search for current cars
 
 The project use App-Router structure.
 
-- **APP folder** is used for routing. 
-- **COMPONENTS folder** is used for custom components and functional features blocks. 
-- **LIB folder** is used for functions and other helpers.
-- **TYPES folder** is used for elements types.
+-   **APP folder** is used for routing.
+-   **COMPONENTS folder** is used for custom components and functional features blocks.
+-   **LIB folder** is used for functions and other helpers.
+-   **TYPES folder** is used for elements types.
+
 ---
 
 ### Scripts
