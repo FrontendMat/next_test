@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Description
 
-## Getting Started
+Modern website with the ability to search for current cars
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Technologies Used
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-   **Next + TS**
+-   **Tailwindcss**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Architecture
 
-## Learn More
+The project use App-Router structure.
 
-To learn more about Next.js, take a look at the following resources:
+- **APP folder** is used for routing. 
+- **COMPONENTS folder** is used for custom components and functional features blocks. 
+- **LIB folder** is used for functions and other helpers.
+- **TYPES folder** is used for elements types.
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Scripts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### `npm run dev`
 
-## Deploy on Vercel
+Starts the frontend project in developing mode.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### `npm run build`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Build the project
+
+### `npm run start`
+
+Start builded project in runtime;
+
+### `npm run lint:ts`
+
+Runs ESLint on ts/tsx files.
+
+### `npm run lint:ts:fix`
+
+Runs ESLint with auto-fix on ts/tsx files.
+
+---
+
+### CI pipeline
+
+The GitHub Actions configuration is located in /.github/workflows.
+
+---
+
+### Deployment
+
+Run `npm run build` to build project, then run `npm run start` to see the builded project.
